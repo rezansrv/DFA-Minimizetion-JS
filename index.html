@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>DFA Minimize</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.1.0/sigma.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.1.0/plugins/sigma.plugins.dragNodes.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.1.0/plugins/sigma.renderers.edgeLabels.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.1.0/plugins/sigma.plugins.animate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+</head>
+
+<body>
+	<div style="text-align: center;">
+		<input type="text" placeholder="new label" id="labelInput">
+	</div>
+	<div id="canvas">
+			<h1>Reza Naserivand dfa minimizer project</h1>
+	</div>
+	<div id="button-container" onclick="partitionNodes()">
+		<input type="button" value="Minimize" id="minimize">
+	</div>
+	<script src="./main.js"></script>
+</body>
+
+</html>

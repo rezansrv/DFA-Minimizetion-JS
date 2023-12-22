@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;}
+body {
+    margin: 0;
+    background: hsla(236, 100%, 8%, 1);
+
+    background: linear-gradient(0deg, hsla(236, 100%, 8%, 1) 13%, hsla(211, 100%, 28%, 1) 100%, hsla(211, 100%, 27%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(236, 100%, 8%, 1) 13%, hsla(211, 100%, 28%, 1) 100%, hsla(211, 100%, 27%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(236, 100%, 8%, 1) 13%, hsla(211, 100%, 28%, 1) 100%, hsla(211, 100%, 27%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#00458E", GradientType=1 );}
+
+h1{
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    font-size: 20px;
+    position: absolute;
+    padding: 20px;
+
+}
+
+#labelInput {
+    width: 18vw;
+    text-align: center;
+    margin: 0.75% auto 5px auto;
+    padding: 8px; 
+    border-radius: 5px;
+    border: 1px solid #000000; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none; 
+}
+
+#labelInput::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;/
+}
+
+#canvas {
+    margin: 20px auto 20px auto;
+    background-color: #fafafa; 
+    height: 75vh;
+    width: 85vw;
+    border: 1px solid #444; 
+    border-radius: 0.5em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+}
+
+#button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+#minimize {
+    background-color: #0056b3; 
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    transition: 0.3s;
+}
+
+#minimize:hover {
+    background-color: #003366; 
+}
+
+::selection {
+    background: #007FFF; 
+    color: white;
+}
