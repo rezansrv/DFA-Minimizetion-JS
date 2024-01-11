@@ -1,4 +1,4 @@
-# DFA Minimization (Reza Naserivand)
+# DFA Minimization
 
 ## Adding States:
 
